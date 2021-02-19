@@ -1,0 +1,357 @@
+.hero{
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 70px;
+}
+.hero-img-container{
+  max-width: 540px;
+}
+.hero-img{
+  width: 100%;
+}
+.hero h1{
+  font-family: "Raleway";
+  margin: 0 0 15px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+}
+.hero h2{
+  font-family: "Raleway";
+  color: #484848;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+.btn-agendar{
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  margin-bottom: 20px;
+}
+.btn-agendar:hover{
+  background-color: #3498db;
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.message-container{
+  background: #f3f9fd;
+  padding: 10px 0;
+  text-align: center;
+}
+.message-container h4{
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.message-container p{
+  font-weight: 500;
+  font-family: "Raleway";
+  font-size: 18px;
+}
+.text-highlight{
+  color: #3498db;
+  font-weight: 600;
+}
+.section{
+  padding: 60px 0;
+}
+.section-title{
+  padding-bottom: 30px;
+  text-align: center;
+}
+.section-title h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222222;
+  font-family: "Raleway";
+}
+.section-title h2::before{
+  margin: 0 15px 10px 0;
+}
+.section-title h2::after{
+  margin: 0 0 10px 15px;
+}
+.section-title h2::before,
+.section-title h2::after
+{
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+.content ul{
+  list-style: none;
+  padding: 0;
+}
+.content ul li{
+  margin-bottom: 10px;
+}
+.icon{
+  font-size: 14px;
+  color: #3498db;
+  line-height: 1;
+  margin-right: 8px;
+}
+.servicios .icon-box{
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+.servicios .icon-box:before{
+  content: '';
+  background: #e1f0fa;
+  position: absolute;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.servicios .icon-box:hover::before{
+  background: #3498db;
+  right: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.servicios-icon{
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #3498db;
+  transition: all 0.3s ease-in-out;
+}
+.servicios .icon-box:hover .servicios-icon{
+  background: white;
+}
+.servicios .icon-box:hover i{
+  color: #3498db;
+}
+.servicios-icon i{
+  font-size: 36px;
+  line-height: 1;
+  color: white;
+}
+.service-title{
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.servicios .icon-box:hover .service-title,
+.servicios .icon-box:hover .service-description
+{
+  color: white;
+}
+.service-description{
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.card{
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.card-1{
+  background-image: url(../img/services-1.jpg);
+}
+.card-2{
+  background-image: url(../img/services-2.jpg);
+}
+.card-3{
+  background-image: url(../img/services-3.jpg);
+}
+.card-4{
+  background-image: url(../img/services-4.jpg);
+}
+.card-body{
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+
+}
+.card-title{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card-title a{
+  text-decoration: none;
+  color: #222222;
+}
+.card-title a:hover{
+  text-decoration: none;
+  color: #222222;
+}
+.card-text{
+  color: #5e5e5e;
+}
+.read-more a{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777777;
+  transition: 0.4s;
+  font-weight: 600;
+}
+.read-more .read-more-icon{
+  margin-right: 5px;
+}
+.card:hover .card-body{
+  background-color: #3498db;
+}
+.card:hover .card-title a,
+.card:hover .card-text,
+.card:hover .read-more a
+{
+ color: white;
+}
+
+.features .icon-box{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  transition: ease-in-out 0.3s;
+}
+
+.features .icon-box i{
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.features .icon-box h3{
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  transition: ease-in-out 0.3s;
+}
+.features .icon-box i{
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.features .icon-box:hover{
+  background: #eef7fc;
+}
+.features .icon-box:hover h3{
+  color: #3498db;
+}
+
+.member{
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.member-info{
+  padding: 25px 15px;
+}
+.member-info h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+  font-family: "Raleway";
+}
+.member-info span{
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.pricing .box{
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f9f9f9;
+}
+.pricing .box h3{
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+}
+.pricing .box h4{
+  font-size: 42px;
+  color: #3498db;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.pricing .box h4 sup{
+  font-size: 20px;
+  top:-15px;
+  left: -3px;
+}
+.pricing .box h4 span{
+  font-size: 16px;
+  color: #bababa;
+  font-weight: 300;
+}
+.pricing .box ul{
+  padding: 0;
+  list-style: none;
+  color: #222222;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+.pricing .box .na{
+  color: #ccc;
+  text-decoration: line-through;
+}
+.pricing .box li{
+  padding-bottom: 16px;
+}
+.pricing .box-main{
+  border-color: #3498db;
+}
+.pricing .box .btn-wrap{
+  padding: 15px;
+}
+.pricing .box-main .btn-agendar{
+  background: #3498db;
+  color: white;
+}
+.pricing .box-main .btn-agendar:hover{
+  background: #2383c4;
+  border-color: #2383c4;
+}

@@ -1,0 +1,10 @@
+body{ 
+  font: 14px sans-serif;
+}
+.wrapper{ 
+  width: 350px; padding: 20px; 
+}
+.main-container{
+  height: 100vh;
+  background-color: #57b8eb;
+}

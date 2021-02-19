@@ -1,0 +1,9 @@
+.lead{
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+ol > li{
+  margin-top: 15px;
+}
